@@ -12,13 +12,21 @@ export default function Home({exploreData}) {
       </Head>
       <Navbar />
 
-     
+      
 
        <div className="min-h-screen bg-black py-6 flex flex-col justify-center sm:py-12">
           <div className="flex flex-col items-center justify-center py-10">
             <main className="bg-black min-h-screen py-6 flex flex-col justify-center">
               <div className="relative my-auto mx-auto">
+              
                 <section className="min-h-screen py-3 max-w-8xl mx-auto px-8 sm:px-16">
+               
+                <div>
+                    <h1 className="text-lg text-white mx-auto my-auto">
+                      Crypto Currency Prices
+                    </h1>
+                  </div>
+           
                   <div className="stick-top top-0 z-50 grid grid-cols-7  mx-auto my-auto">
                     <p className="text-lg text-gray-400"></p>
                     <p className={`text-lg mx-auto my-auto text-gray-400`}>Rank</p>
