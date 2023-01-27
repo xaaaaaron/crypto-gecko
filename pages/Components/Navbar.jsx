@@ -34,7 +34,7 @@ const Navbar = () => {
            } mx-auto items-center justify-between px-8 trasition ease-in-out duration-500`}
          >
            <a
-             href="https://themeptation.net"
+             href="/"
              className="text-xl font-bold tracking-tighter text-indigo-400 pr-8 border-b-2 border-indigo-400"
            >
              CryptoGecko
