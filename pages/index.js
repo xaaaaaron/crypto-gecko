@@ -18,11 +18,11 @@ export default function Home({exploreData, nextData}) {
        <div className="min-h-screen bg-black py-6 flex flex-col justify-center sm:py-12">
        <div className="max-w-7xl mx-auto px-8 sm:px-16">
                   
-      <h1 className="text-lg text-white mx-auto my-auto py-20">
+      <h1 className="text-lg text-white mx-auto  md:py-20 sm:py-40">
                        Top Exchanges
                 </h1>
 
-                  <div className="grid grid-cols-4 gap-1 py-10">
+                  <div className="grid md:grid-cols-4 gap-1 py-10 sm:grid-cols-1 xl:grid-cols-4">
                     {nextData?.map(({id, name, year_established, url, image, trush_score, trush_score_rank}) => (
                    <>
                    <TopCards 
