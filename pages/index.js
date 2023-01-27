@@ -28,10 +28,9 @@ export default function Home({exploreData}) {
                     <p className="text-lg mx-auto text-gray-400">24h Percentage</p>
                   </div>
       
-                {exploreData.map(({id, symbol, name, image, current_price, market_cap_rank, price_change_24h, price_change_percentage_24h}) => (
-                  <div className=" border-x-50 border-gray-900 relative cursor-pointer hover:scale-105  transform transition duration-300 ease-out">
-                    <Cards 
-                      key={name}
+                {exploreData?.map(({id, symbol, name, image, current_price, market_cap_rank, price_change_24h, price_change_percentage_24h}) => (
+                  <div key={id} className=" border-x-50 border-gray-900 relative cursor-pointer hover:scale-105  transform transition duration-300 ease-out">
+                    <Cards key={id}
                       image={image}
                       name={name}
                       symbol={symbol}
