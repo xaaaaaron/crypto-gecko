@@ -11,6 +11,7 @@ const Cards = ({id, symbol, name, image, current_price, market_cap_rank, price_c
                         src={image}
                         width="18"
                         height="18"
+                        alt="test"
                     />
                     <p className="text-sm text-gray-100">{name}</p>  
                     <p className="hidden lg:inline mx-auto text-sm text-gray-500">{symbol}</p>
